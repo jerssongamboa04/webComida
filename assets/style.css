@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text1{
+    text-align: center;
+    background-color: white;
+    
+}
+
+.text1 h1{
+    color:red;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.text1 h2{
+color:black;
+font-weight: bold;
+font-family: sans-serif;
+}
+
+.navegacion{
+    background-color: gray;
+
+}
+
+.navegacion img{
+background-color: gray;
+    height: 10px;
+}
+
