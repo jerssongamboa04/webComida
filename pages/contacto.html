@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+    <link rel="stylesheet" href="../assets/styleFormulario.css">
+</head>
+
+<body>
+
+    <h1>Contact Us</h1>
+
+    <form>
+
+        <div class="f1">
+            <label for="query">Type of Query</label>
+            <select name="query" id="query">
+                <option value="España">select</option>
+                <option value="Portugal">Query2</option>
+                <option value="Italia">Query3</option>
+            </select>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Name">
+
+            <label for="email">Email-Id</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="text">Phone Number</label>
+            <input type="text" id="number" name="number" placeholder="Enter your Phone no">
+
+        </div>
+
+
+        <div class="f2">
+            <label>Are you a member of Gamma Burger:</label>
+
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" value="yes">
+
+
+            <label for="no">No</label>
+            <input type="radio" id="no" value="no">
+
+
+        </div>
+
+        <div class="f3">
+            <label for="extra">Ellaborate your query</label>
+            <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+
+
+            <input type="submit" value="Submit" id="submit">
+            <input type="submit" value="Reset" id="reset">
+
+        </div>
+    </form>
+
+    <footer>
+
+        <p>Jersson Gamboa web &copy 2023</p>
+
+    </footer>
+</body>
+
+
+</html>
