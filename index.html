@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurante</title>
-    <link rel="stylesheet" href="../assets/style.css">
+    <title>Gamma Burger</title>
+    <link rel="stylesheet" href="/assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Space+Mono&display=swap"
@@ -14,46 +14,78 @@
 </head>
 
 <body>
-    <!--------------- HEADER -------------------->
+    <!------------------------ HEADER ------------------------->
     <header>
         <div class="text1">
-            <h1>Online</h1>
+            <h1>Gamma Burger</h1>
             <h3>FoodShop</h3>
         </div>
-        <hr>
 
+        <!--------------------NAV BAR------------------------->
         <div class="Burger">
 
-            <img src="../assets/img/png-clipart-cheeseburger-hamburger-french-fries-junk-food-coloring-book-hamburger-bun-white-food (1).png"
-                alt="burger">
-
-
+            <img src="assets/img/hamburguesa.png" alt="burger">
 
             <nav class="navegacion">
                 <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Menu</a>
-                <a href="">ContactUs</a>
+                <a href="pages/about.html" target="_blank">About</a>
+                <a href="pages/menu.html" target="_blank">Menu</a>
+                <a href="pages/contacto.html" target="_blank">ContactUs</a>
             </nav>
         </div>
 
     </header>
-    <!-- -----------SECTION------------------ -->
+    <!-----------------------SECTION------------------------>
     <section>
 
-        <h1>Welcome to Online FoodShop</h1>
+        <h1 class="carta">Welcome to Online FoodShop</h1>
 
-        <input type="button" value="ORDER NOW" id="orderNow">
+        <div id="order">
+            <a href="/pages/menu.html" target="_blank" alt=“specials”>Order Now</a>
+        </div>
+        
+        <div class="container1">
 
-        <img src="" alt="">
+            <div id="price">
+                <a href="pages/menu.html" target="_blank" alt=“price”>Price</a>
+            </div>
 
-        <img src="" alt="">
+            <div id="especial">
+                <a href="" alt=“specials”>Specials</a>
+            </div>
 
+        </div>
     </section>
 
-    <hr>
 
-    <h1>Featured Products</h1>
+    <!---------------------SECTION 2 -------------------->
+    <aside>
+
+        <h1>Featured Products</h1>
+
+        <div class="table">
+
+            <div id="rice">
+                <a href=“#” alt=“specials”>Order Now</a>
+            </div>
+
+            <div id="pasta">
+                <a href=“#” alt=“specials”>Order Now</a>
+            </div>
+
+            <div id="dessert">
+                <a href=“#” alt=“specials”>Order Now</a>
+            </div>
+
+        </div>
+
+    </aside>
+    <!-- -------------------FOOTER---------------------- -->
+    <footer>
+        <p>Copyright &copy 2020-2021 GammaBurgerShop. All Rights are reserved</p>
+
+    </footer>
+
 
 
 

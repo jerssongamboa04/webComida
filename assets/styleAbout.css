@@ -1,0 +1,152 @@
+body {
+    background-color: brown;
+}
+
+/* -----------HEADER------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text1 {
+    text-align: center;
+    background-color: white;
+    line-height: 25px;
+    padding: 10px;
+}
+
+.text1 h1 {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 8px;
+}
+
+.text1 h3 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+    border-bottom: solid 1px gray;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 8px;
+}
+
+.navegacion a{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    gap: 18px;
+    padding: 6px;
+    display: flex;
+    font-size: 25px;
+}
+
+.Burger {
+    border-top: 3px solid black;
+    border-bottom: 4px solid black;
+    margin-top: 10px;
+    background-color: gray;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.Burger img {
+    background-color: grey;
+    margin-top: 10px;
+    width: 50px;
+    height: 50spx;
+    border: none;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p1 {
+
+    font-size: 20px;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+    width: 98%;
+    color: white;
+    border: solid 2px burlywood;
+    background-color: rgb(5, 91, 5);
+}
+
+h2 {
+
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ------------------Aside------------- */
+
+aside {
+    text-align: center;
+    color: white;
+}
+
+.store {
+    margin-top: 12px;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    color: black;
+    font-weight: bold;
+}
+
+img {
+    width: 600px;
+    border-radius: 20px;
+    border: solid 3px black;
+}
+
+li {
+    font-size: 40px;
+}
+
+ul {
+    text-align: start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: opx;
+}
+
+footer {
+    font-size: 20px;
+    margin-top: 110px;
+    text-align: center;
+}
+
+
+/* ----------------pseudoclases--------------- */
+
+
+a:hover {
+    color: red;
+    background-color: white;
+    border-radius: 20px;
+}
+
+a:active {
+    color: #0000FF;
+    box-shadow: 0px 0px 6px 8px rgba(0, 0, 0, 0.81);
+}
